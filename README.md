@@ -23,8 +23,8 @@ Because I don't have a digital certificate, I have to use the leaked digital cer
 ### About open source
 It is a bit awkward, so I say straightforwardly: I don't plan to share the source code of this tool, but I may share some source code of test programs that associated with this tool.
 
-### About WKE can be detected by EasyAntiCheat
-I got too much SPAM about this issue. I must declare: WKE is not designed to bypass any anti-cheat solution. If you need to use WKE in a specfic environment, please order "binary customization" service.
+### About WKE can be detected by anti-cheat solutions
+I received too much SPAM about this issue. I must declare: WKE is not designed to bypass any anti-cheat solution. If you need to use WKE in a specfic environment, please order "binary customization" service.
 
 # Main Features
 1. Process management (Module, Thread, Handle, Memory, Window, Windows Hook, etc.)
@@ -48,9 +48,10 @@ In order to optimize the page load speed in low quality network environments, I 
 3. Team of ProcessHacker (I studied the source code of this software, but I didn't use it in my project)
 4. Author of DSEFIX (I use it as an alternative solution to load driver)
 
-# Cooperation
+# Contact
 ### E-MAIL: AxtMueller#gmx.de (Replace # with @)
-Please write E-MAIL in English or German, I only reply to E-MAILs that I am interested in.
+1. If you find bugs, have constructive suggestions or would like to purchase a paid service, please let me know.  
+2. You'd better write E-MAIL in English or German, I only reply to E-MAILs that I am interested in.
 ### Paid services:
 1. Feature customization: Add the features you need to WKE.
 2. Binary customization: Modify obvious characteristics of WKE and remove all of my personal information in WKE.
