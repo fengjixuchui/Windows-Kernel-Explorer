@@ -2,7 +2,7 @@
 Windows Kernel Explorer (you can simply call it as "WKE") is a free but powerful Windows kernel research tool. It supports from Windows XP to Windows 10 (32-bit and 64-bit). Compared to WIN64AST and PCHunter, WKE can run on the latest Windows 10 without updating binary files.
 
 ### How WKE works on the latest Windows 10
-WKE will automatically download required symbol files if the current system is not supported natively, 90% of the features will work after this step. For some needed data that doesn't exist in symbol files, WKE will try to retrieve them from the DAT file (when new Windows 10 releases, I will upload the newest DAT file to GitHub). If WKE cannot access the internet, 50% of the features will still work. Currently, native support is available from Windows XP to Windows 10 RS3, Windows 10 from RS4 to 19H1 are fully supported by parsing symbol files and DAT file.
+WKE will automatically download required symbol files if the current system is not supported natively, 90% of the features will work after this step. For some needed data that doesn't exist in symbol files, WKE will try to retrieve them from the DAT file (when new Windows 10 releases, I will upload the newest DAT file to GitHub). If WKE cannot access the internet, 50% of the features will still work. Currently, native support is available from Windows XP to Windows 10 RS3, Windows 10 from RS4 to 19H2 are fully supported by parsing symbol files and DAT file.
 
 ### How to customize WKE
 You can customize WKE by editing the configuration file. Currently, you can specify the device name and symbolic link name of driver, and altitude of filter. You can also enable kernel-mode and user-mode characteristics randomization to avoid being detected by malware. If you rename the EXE file of WKE, then you need to rename SYS/DAT/INI files together with the same name.
@@ -61,10 +61,7 @@ In order to optimize the page load speed in low quality network environments, I 
 6. Driver source code: Entire driver source code of WKE.
 
 # [Revision History](/binaries/README.md#all-revision-history)
-### Current Version: 20191104
-Bug fix: UI fine-tuning (menu, listview, etc).  
-Bug fix: Optimize the "export to file" feature.  
-Bug fix: Failed to operate files and registry keys that contain NULL character.  
-New feature: Map physical memory (Memory Editor).  
+### Current Version: 20191110
+Bug fix: Some features of Memory Editor crash the program.  
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
