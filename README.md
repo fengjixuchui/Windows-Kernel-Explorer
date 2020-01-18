@@ -13,12 +13,10 @@ Because I don't have a digital certificate, I have to use the leaked digital cer
 ### About loading driver unsuccessfully
 ##### If WKE prompts "unable to load driver", there may be the following reasons:
 1. Secure boot is enabled.  
-2. You are not running WKE as administrator.  
-3. Anti-Virus software prevents the driver from loading.  
+2. Anti-Virus software prevents the driver from loading.  
 ##### Solutions:
 1. Disable secure boot.  
-2. Run WKE as administrator.  
-3. Add the files of WKE to the white list of Anti-Virus software.  
+2. Add the files of WKE to the white list of Anti-Virus software.  
 
 ### About open source
 It is a bit awkward, so I say straightforwardly: I don't plan to share the source code of this tool, but I may share some source code of test programs that associated with this tool.
@@ -61,7 +59,7 @@ In order to optimize the page load speed in low quality network environments, I 
 6. Driver source code: Entire driver source code of WKE.
 
 # [Revision History](/binaries/README.md#all-revision-history)
-### Current Version: 20191110
-Bug fix: Some features of Memory Editor crash the program.  
+### Current Version: 20200107
+Bug fix: Inputbox works improperly on the latest Windows 10.  
 ### Revoked Versions: 00000000
 These versions have serious security issues and should not be used anymore.
